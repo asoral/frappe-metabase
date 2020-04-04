@@ -4,7 +4,7 @@
  "docstatus": 0,
  "doctype": "Page",
  "idx": 0,
- "modified": "2019-11-13 14:45:20.287619",
+ "modified": "2020-04-04 10:36:23.896553",
  "modified_by": "Administrator",
  "module": "Metabase Integration",
  "name": "metabase-dashboard",
@@ -13,6 +13,9 @@
  "roles": [
   {
    "role": "All"
+  },
+  {
+   "role": "Administrator"
   }
  ],
  "script": null,
