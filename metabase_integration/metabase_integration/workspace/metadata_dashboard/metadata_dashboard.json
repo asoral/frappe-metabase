@@ -8,6 +8,7 @@
  "doctype": "Workspace",
  "extends_another_page": 0,
  "hide_custom": 0,
+ "icon": "graph",
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
@@ -41,7 +42,7 @@
    "type": "Link"
   }
  ],
- "modified": "2021-02-20 19:48:33.536876",
+ "modified": "2021-02-22 17:29:42.076575",
  "modified_by": "Administrator",
  "module": "Metabase Integration",
  "name": "Metadata Dashboard",
