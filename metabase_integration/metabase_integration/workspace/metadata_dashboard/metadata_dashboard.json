@@ -42,7 +42,7 @@
    "type": "Link"
   }
  ],
- "modified": "2021-02-22 17:29:42.076575",
+ "modified": "2021-02-23 16:06:05.481445",
  "modified_by": "Administrator",
  "module": "Metabase Integration",
  "name": "Metadata Dashboard",
@@ -53,7 +53,7 @@
   {
    "doc_view": "Dashboard",
    "label": "Metabase Dashboard",
-   "link_to": "metabase-dashboard",
+   "link_to": "metabase-dashboard1",
    "type": "Page"
   }
  ]

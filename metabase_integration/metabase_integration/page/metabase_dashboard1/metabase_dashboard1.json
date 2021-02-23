@@ -1,0 +1,25 @@
+{
+ "content": null,
+ "creation": "2021-02-23 16:04:13.011254",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2021-02-23 16:04:13.011254",
+ "modified_by": "Administrator",
+ "module": "Metabase Integration",
+ "name": "metabase-dashboard1",
+ "owner": "Administrator",
+ "page_name": "Metabase Dashboard1",
+ "roles": [
+  {
+   "role": "All"
+  },
+  {
+   "role": "Administrator"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0
+}
