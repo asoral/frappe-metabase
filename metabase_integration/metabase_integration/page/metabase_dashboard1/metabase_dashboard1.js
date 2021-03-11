@@ -34,6 +34,7 @@ class MetabaseDashboard {
 			(r) => {
 				// set variable
 				this.settings = r.message;
+				console.log("--------------------r.message",r.message)
 				this.resizer = this.settings.resizer;
 				this.iframeUrl = this.settings.iframeUrl;
 				this.name = this.settings.name;
@@ -59,6 +60,7 @@ class MetabaseDashboard {
 	}
 
 	getSettings() {
+	    console.log("---------------")
 		return frappe.call({
 			'method': 'metabase_integration.metabase_integration.doctype.metabase_dashboard.get_url',
 			'args': {
@@ -76,6 +78,7 @@ class MetabaseDashboard {
 				'fieldtype': 'Link',
 				'options': 'Metabase Dashboard',
 				'onchange': () => {
+				    console.log("---------this.selectionField.get_value()--",this.selectionField.get_value())
 					const dashboardName = this.selectionField.get_value();
 					if (dashboardName) {
 						this.dashboardName = dashboardName;
